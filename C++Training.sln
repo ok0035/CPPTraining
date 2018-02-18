@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Namespace", "C++Training\C++Training.vcxproj", "{C97785A3-DE4F-49CE-B018-39B960DC19D5}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bank", "Bank\Bank.vcxproj", "{B96B0F42-CB5E-476A-96EB-570A035FFCFE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallByReference", "CallByReference\CallByReference.vcxproj", "{CA41E9EA-5D33-4A5D-8ADB-951BE1D622CF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicAllocation", "DynamicAllocation\DynamicAllocation.vcxproj", "{125C3EA1-249C-4E45-911F-F64CD7D72D8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{CA41E9EA-5D33-4A5D-8ADB-951BE1D622CF}.Release|x64.Build.0 = Release|x64
 		{CA41E9EA-5D33-4A5D-8ADB-951BE1D622CF}.Release|x86.ActiveCfg = Release|Win32
 		{CA41E9EA-5D33-4A5D-8ADB-951BE1D622CF}.Release|x86.Build.0 = Release|Win32
+		{125C3EA1-249C-4E45-911F-F64CD7D72D8C}.Debug|x64.ActiveCfg = Debug|x64
+		{125C3EA1-249C-4E45-911F-F64CD7D72D8C}.Debug|x64.Build.0 = Debug|x64
+		{125C3EA1-249C-4E45-911F-F64CD7D72D8C}.Debug|x86.ActiveCfg = Debug|Win32
+		{125C3EA1-249C-4E45-911F-F64CD7D72D8C}.Debug|x86.Build.0 = Debug|Win32
+		{125C3EA1-249C-4E45-911F-F64CD7D72D8C}.Release|x64.ActiveCfg = Release|x64
+		{125C3EA1-249C-4E45-911F-F64CD7D72D8C}.Release|x64.Build.0 = Release|x64
+		{125C3EA1-249C-4E45-911F-F64CD7D72D8C}.Release|x86.ActiveCfg = Release|Win32
+		{125C3EA1-249C-4E45-911F-F64CD7D72D8C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,4 @@
+﻿  DynamicAllocation.c
+d:\mine\project\visual studio\sources\c++training\dynamicallocation\dynamicallocation.c(61): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  d:\mine\project\visual studio\sources\c++training\dynamicallocation\dynamicallocation.c(61): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+  DynamicAllocation.vcxproj -> D:\Mine\Project\Visual Studio\Sources\C++Training\Debug\DynamicAllocation.exe

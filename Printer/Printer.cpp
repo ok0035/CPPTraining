@@ -12,11 +12,9 @@ Printer::Printer()
 
 void Printer::SetString(const char * str)
 {
-	if (str != NULL) delete this->str;
-	int cnt = 0;
-	while (str[cnt] != '\0') cnt++;
+	if (this->str != NULL) delete this->str;
 
-	this->str = new char[cnt+1];
+	this->str = new char[strlen(str)+1];
 	strcpy_s(this->str, strlen(str)+1, str);
 }
 

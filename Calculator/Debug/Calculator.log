@@ -1,8 +1,2 @@
-﻿  Main.cpp
-d:\mine\project\visual studio\sources\c++training\calculator\main.cpp(11): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
-d:\mine\project\visual studio\sources\c++training\calculator\main.cpp(12): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
-d:\mine\project\visual studio\sources\c++training\calculator\main.cpp(13): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
-d:\mine\project\visual studio\sources\c++training\calculator\main.cpp(14): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
-  Calculator.cpp
-  코드를 생성하고 있습니다...
+﻿  Calculator.cpp
   Calculator.vcxproj -> D:\Mine\Project\Visual Studio\Sources\C++Training\Debug\Calculator.exe

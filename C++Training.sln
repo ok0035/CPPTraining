@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Namespace", "C++Training\C++Training.vcxproj", "{C97785A3-DE4F-49CE-B018-39B960DC19D5}"
 EndProject
@@ -27,7 +27,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fruit", "Fruit\Fruit.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Encapsulation", "Encapsulation\Encapsulation.vcxproj", "{442194B8-CF79-4964-9422-6177EB1CE479}"
 EndProject
+<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NameCard", "NameCard\NameCard.vcxproj", "{6F1E15F9-1A5D-4ABC-AC1D-C74FC06EA90F}"
+=======
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bank2", "Bank2\Bank2.vcxproj", "{4A1D4DB5-4D39-4E0C-B080-57EA09B0F25D}"
+>>>>>>> e8554a459d89863cb38160630fad7274e115420b
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +137,7 @@ Global
 		{442194B8-CF79-4964-9422-6177EB1CE479}.Release|x64.Build.0 = Release|x64
 		{442194B8-CF79-4964-9422-6177EB1CE479}.Release|x86.ActiveCfg = Release|Win32
 		{442194B8-CF79-4964-9422-6177EB1CE479}.Release|x86.Build.0 = Release|Win32
+<<<<<<< HEAD
 		{6F1E15F9-1A5D-4ABC-AC1D-C74FC06EA90F}.Debug|x64.ActiveCfg = Debug|x64
 		{6F1E15F9-1A5D-4ABC-AC1D-C74FC06EA90F}.Debug|x64.Build.0 = Debug|x64
 		{6F1E15F9-1A5D-4ABC-AC1D-C74FC06EA90F}.Debug|x86.ActiveCfg = Debug|Win32
@@ -141,6 +146,16 @@ Global
 		{6F1E15F9-1A5D-4ABC-AC1D-C74FC06EA90F}.Release|x64.Build.0 = Release|x64
 		{6F1E15F9-1A5D-4ABC-AC1D-C74FC06EA90F}.Release|x86.ActiveCfg = Release|Win32
 		{6F1E15F9-1A5D-4ABC-AC1D-C74FC06EA90F}.Release|x86.Build.0 = Release|Win32
+=======
+		{4A1D4DB5-4D39-4E0C-B080-57EA09B0F25D}.Debug|x64.ActiveCfg = Debug|x64
+		{4A1D4DB5-4D39-4E0C-B080-57EA09B0F25D}.Debug|x64.Build.0 = Debug|x64
+		{4A1D4DB5-4D39-4E0C-B080-57EA09B0F25D}.Debug|x86.ActiveCfg = Debug|Win32
+		{4A1D4DB5-4D39-4E0C-B080-57EA09B0F25D}.Debug|x86.Build.0 = Debug|Win32
+		{4A1D4DB5-4D39-4E0C-B080-57EA09B0F25D}.Release|x64.ActiveCfg = Release|x64
+		{4A1D4DB5-4D39-4E0C-B080-57EA09B0F25D}.Release|x64.Build.0 = Release|x64
+		{4A1D4DB5-4D39-4E0C-B080-57EA09B0F25D}.Release|x86.ActiveCfg = Release|Win32
+		{4A1D4DB5-4D39-4E0C-B080-57EA09B0F25D}.Release|x86.Build.0 = Release|Win32
+>>>>>>> e8554a459d89863cb38160630fad7274e115420b
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

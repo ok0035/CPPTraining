@@ -40,8 +40,23 @@ NameCard::NameCard(const char *name, const char *company, const char *phone, COM
 	strcpy_s(Pos, strlen(str) + 1, str);
 }
 
+NameCard::NameCard(NameCard & copy)
+{
+	this->Name = new char[strlen(copy.Name) + 1];
+	this->Company = new char[strlen(copy.Company) + 1];
+	this->Phone = new char[strlen(copy.Phone) + 1];
+	this->Pos = new char[strlen(copy.Pos) + 1];
+
+	strcpy_s(this->Name, strlen(copy.Name) + 1, copy.Name);
+	strcpy_s(this->Company, strlen(copy.Company) + 1, copy.Company);
+	strcpy_s(this->Phone, strlen(copy.Phone) + 1, copy.Phone);
+	strcpy_s(this->Pos, strlen(copy.Pos) + 1, copy.Pos);
+
+}
+
 NameCard::~NameCard()
 {
+	cout << "destruction" << endl;
 	delete[] Company;
 	delete[] Phone;
 	delete[] Name;
@@ -50,9 +65,9 @@ NameCard::~NameCard()
 
 void NameCard::ShowNameCardInfo()
 {
-	cout << "이름 : " << this->Name <<endl;
-	cout << "회사 : " << this->Company << endl;
-	cout << "전화번호 : " << this->Phone << endl;
-	cout << "직급 : " << this->Pos << endl;
+	cout << "이름 : " << this->Name << " " << &Name << endl;
+	cout << "회사 : " << this->Company << " " << &Company<< endl;
+	cout << "전화번호 : " << this->Phone << " " << &Phone << endl;
+	cout << "직급 : " << this->Pos << " " << &Pos << endl;
 	cout << endl;
 }

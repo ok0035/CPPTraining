@@ -12,6 +12,8 @@ private:
 
 public:
 	NameCard(const char *name, const char *company, const char *phone, COMP_POS rank);
+	NameCard(NameCard &copy);
+
 	~NameCard();
 
 	void ShowNameCardInfo();

@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cstring>
-#include "bank.h"
+#include "bankold.h"
 
 using std::cout;
 using std::cin;
@@ -23,22 +23,22 @@ int main() {
 
 	while (1) {
 
-		ShowMenu();
+		ShowMenuOld();
 		int input;
 		cin >> input;
 
 		switch (input) {
 		case 1:
-			MakeAccount();
+			MakeAccountOld();
 			break;
 		case 2:
-			DepositMoney();
+			DepositMoneyOld();
 			break;
 		case 3:
-			WithdrawMoney();
+			WithdrawMoneyOld();
 			break;
 		case 4:
-			ShowInfo();
+			ShowInfoOld();
 			break;
 		case 5:
 			return 0;
@@ -47,7 +47,7 @@ int main() {
 
 }
 
-void ShowMenu()
+void ShowMenuOld()
 {
 	//메뉴보기
 
@@ -62,7 +62,7 @@ void ShowMenu()
 
 }
 
-void MakeAccount()
+void MakeAccountOld()
 {
 
 	int accid, balance;
@@ -115,7 +115,7 @@ void MakeAccount()
 
 }
 
-void DepositMoney()
+void DepositMoneyOld()
 {
 	int accId, balance;
 
@@ -140,7 +140,7 @@ void DepositMoney()
 	}
 }
 
-void WithdrawMoney()
+void WithdrawMoneyOld()
 {
 	//출금
 
@@ -167,7 +167,7 @@ void WithdrawMoney()
 	}
 }
 
-void ShowInfo()
+void ShowInfoOld()
 {
 	temp = head;
 	while (temp != NULL) {
